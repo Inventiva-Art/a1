@@ -1,0 +1,35 @@
+@media screen and (min-width: 350px) and (max-width: 449px)  {
+    h1{
+        width: 95%;
+        font-weight: 600;
+        font-size: 30px;
+        text-align: center;
+    }
+    h2{
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    section{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 590px)  {
+    h1{
+        width: 95%;
+        font-weight: 600;
+        font-size: 30px;
+        text-align: center;
+    }
+    h2{
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    section{
+        flex-direction: column;
+    }
+}

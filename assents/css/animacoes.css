@@ -1,0 +1,107 @@
+@keyframes feedbacks {
+    0%{
+        transform: translate(0px);
+    }
+    100%{
+        transform: translate(-750px);
+    }
+}
+@keyframes pulsacao {
+    0%{
+        filter: drop-shadow(0px 0px 0px #f5db03);
+    }
+    100%{
+        filter: drop-shadow(0px 0px 20px #f5db03);
+    }
+}
+
+
+/*RESPONSIVIDADE DA ANIMAÇÃO */
+@media screen and (min-width: 350px) and (max-width: 479px) {
+    @keyframes feedbacks {
+        0%{
+            transform: translate(0px);
+        }
+        100%{
+            transform: translate(-1530px);
+        }
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 689px) {
+    @keyframes feedbacks {
+        0%{
+            transform: translate(0px);
+        }
+        100%{
+            transform: translate(-1800px);
+        }
+    }
+}
+
+@media screen and (min-width: 690px) and (max-width: 849px) {
+    @keyframes feedbacks {
+        0%{
+            transform: translate(0px);
+        }
+        100%{
+            transform: translate(-1950px);
+        }
+    }
+}
+
+@media screen and (min-width: 850px) and (max-width: 999px) {
+    @keyframes feedbacks {
+        0%{
+            transform: translate(0px);
+        }
+        100%{
+            transform: translate(-1800px);
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1099px) {
+    @keyframes feedbacks {
+        0%{
+            transform: translate(0px);
+        }
+        100%{
+            transform: translate(-1630px);
+        }
+    }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1299px) {
+    @keyframes feedbacks {
+        0%{
+            transform: translate(0px);
+        }
+        100%{
+            transform: translate(-1550px);
+        }
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1499px) {
+    @keyframes feedbacks {
+        0%{
+            transform: translate(0px);
+        }
+        100%{
+            transform: translate(-1380px);
+        }
+    }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1800px) {
+    @keyframes feedbacks {
+        0%{
+            transform: translate(0px);
+        }
+        100%{
+            transform: translate(-1180px);
+        }
+    }
+}
+
